@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GIT Repository</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+        *{
+            padding: 10px;
+        }
+    .col-lg-3{
+        display: inline-block;
+        padding: 20px;
+    }   
+    img{
+        height: 200px;  
+        width: 100px;
+    }
+    h4{
+        text-align: center;
+    }
+    btn{
+        text-align: center;
+    }
+    #repo_name{
+        width: 50%;
+    }
+    @media only screen and (max-width: 600px) {
+        #repo_name{
+        width: 100%;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="alert alert-warning">
+
+            <h2>Git Repo Search</h2>
+    
+        <input type="text" id="repo_name" value="" class="form-control" required> </br>
+        <input type="submit" value="Search" id="search" class="btn btn-outline-primary">
+
+    </div>
+
+
+
+<div id="root" class="jumbotron">
+    <center>
+        <h2 class=""> Repository Results</h2>
+    </center>
+</div>
+ 
+
+    
+</body>
+<script src="script.js"></script>
+</html>
